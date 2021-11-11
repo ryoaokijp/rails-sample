@@ -80,7 +80,9 @@ rails new rails-sample
 cd rails-sample/
 rails s
 ```
-  - プロジェクト作成で「Insecure world writable dir…」という警告がでたら[コチラ](https://www.oiax.jp/books/insecure_world_writable_dir.html)を参考に下記を実施
-  - export PATH="$(echo "$PATH" | sed -r -e 's;:/mnt/[^:]+;;g')"
+  - プロジェクト作成で「Insecure world writable dir…」という警告がでたら[コチラ](https://www.oiax.jp/books/insecure_world_writable_dir.html)を参考に下記を追加
+```bash
+export PATH="$(echo "$PATH" | sed -r -e 's;:/mnt/[^:]+;;g')"
+```
 13. Webアクセス
   - [http://localhost:3000](http://localhost:3000)
