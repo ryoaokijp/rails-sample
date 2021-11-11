@@ -57,11 +57,13 @@ ruby -v
 8. Rails5.2.1をインストール
 ```bash
 gem install rails -v 5.2.1
+rails -v
 ```
 9. SQLite3をインストール
 ```bash
 sudo apt-get install libsqlite3-dev
 gem install sqlite3 -v 1.3.13
+sudo apt-get install sqlite3
 ```
 10. bundlerをインストール
 ```bash
